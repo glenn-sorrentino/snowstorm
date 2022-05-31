@@ -1,0 +1,62 @@
+/* The Simple Design System is made with ❤️ by Glenn Sorrentino - https://glennsorrentino.com */
+/* Please consider contributing! */
+
+/* Add your custom styles in this file... */
+
+@media (prefers-color-scheme: light) {
+  .primaryBtn {
+    background-color: #7522D3;
+  }
+
+  nav ul li a:hover {
+    box-shadow: inset 0 -3px #7522D3 !important;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+
+}
+
+.btn {
+  border-radius: var(--radius-round);
+}
+
+.intro h2 {
+  font-size: var(--font-size-2);
+  width: 66%;
+}
+
+.intro {
+  background-image: url('../images/globe.svg');
+  background-repeat: no-repeat;
+  background-size: 100vh;
+  background-position-x: 66vw;
+}
+
+@media only screen and (max-width: 1280px) {
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .intro h2 {
+    font-size: calc(var(--font-size-2) * .9);
+  }
+}
+
+@media only screen and (max-width: 960px) {
+}
+
+@media only screen and (max-width: 768px) {
+  .intro h2 {
+    font-size: calc(var(--font-size-2) * .8);
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 640px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
