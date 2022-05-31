@@ -11,9 +11,17 @@
   nav ul li a:hover {
     box-shadow: inset 0 -3px #7522D3 !important;
   }
+
+  ::selection {
+      background-color: #7522D3
+  }
 }
 
 @media (prefers-color-scheme: dark) {
+
+  ::selection {
+      background-color: #D3B7F6
+  }
 
 }
 

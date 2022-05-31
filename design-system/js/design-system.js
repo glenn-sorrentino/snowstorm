@@ -18,4 +18,8 @@ $(document).ready(function() {
     $('header nav ul').removeClass('open');
   });
 
+  $('.switch').on('click', function() {
+    $('.toast').addClass('active');
+  });
+
 });
