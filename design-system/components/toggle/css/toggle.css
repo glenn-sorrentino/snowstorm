@@ -26,7 +26,7 @@
   .toggleContainer {
     border: var(--border-light);
     box-shadow: var(--shadow-dm);
-    background-color: var(--color-shade-dm-1);
+    background-color: var(--color-shade-dm-2);
     color: white;
   }
 

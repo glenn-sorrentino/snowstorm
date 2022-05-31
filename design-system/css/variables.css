@@ -12,7 +12,7 @@
 
   --color-shade-dm: rgba(61,61,61,1);
   --color-shade-dm-1: rgba(255,255,255,.1);
-  --color-shade-dm-2: rgba(255,255,255,.2);
+  --color-shade-dm-2: #515151;
   --color-shade-lm: rgba(51,51,51,.035);
 
   --border-dark: 1px solid rgba(0,0,0,0.1);
