@@ -15,12 +15,23 @@
   ::selection {
       background-color: #7522D3
   }
+
+  .intro {
+    background-image: url('../images/globe-lm.svg');
+  }
 }
 
 @media (prefers-color-scheme: dark) {
+  .primaryBtn {
+    background-color: #D3B7F6;
+  }
 
   ::selection {
       background-color: #D3B7F6
+  }
+
+  .intro {
+    background-image: url('../images/globe-dm.svg');
   }
 
 }
@@ -35,7 +46,6 @@
 }
 
 .intro {
-  background-image: url('../images/globe.svg');
   background-repeat: no-repeat;
   background-size: 100vh;
   background-position-x: 66vw;
