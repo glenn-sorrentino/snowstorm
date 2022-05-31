@@ -34,6 +34,10 @@
     background-image: url('../images/globe-dm.svg');
   }
 
+  nav ul li a:hover {
+    box-shadow: inset 0 -3px #D3B7F6 !important;
+  }
+
 }
 
 .btn {
