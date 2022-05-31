@@ -2,6 +2,7 @@
   .toggleContainer {
     border: var(--border-dark);
     box-shadow: var(--shadow-lm-tight);
+    background-color: white;
   }
 
   input:checked + .slider {
@@ -96,5 +97,10 @@ input:checked + .slider:before {
 @media only screen and (max-width: 768px) {
 }
 
-@media only screen and (max-width: 640px) {
+@media only screen and (max-width: 390px) {
+  .toggleContainer {
+    width: auto;
+    justify-content: space-between;
+
+  }
 }
